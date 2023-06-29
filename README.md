@@ -1,2 +1,2 @@
 # K-mean-Clustering
-This project focuses on document clustering using the K-Means algorithm. The objective is to cluster a given dataset and evaluate the results using the external measure of Purity. The Purity metric is calculated by determining the most common class within each cluster and summing the counts, then dividing by the total number of documents. 
+This project performs document clustering using TF-IDF-weighted Word2Vec and evaluates the clustering results. It includes preprocessing steps, feature engineering, TF-IDF clustering, TF-IDF weighted Word2Vec representation, Doc2Vec extension, dimensionality reduction using PCA, and K-Means clustering. The code also provides evaluation metrics such as purity and silhouette score.
